@@ -7,3 +7,7 @@ Testing React with Jest and Testing Library by Bonnie Schulkin
 ```
 npx create-react-app color-button
 ```
+
+### 3. First Test With Testing Library
+
+**Using regular expression in getByText**
