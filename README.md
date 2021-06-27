@@ -47,6 +47,8 @@ npx create-react-app color-button
 - More efficient \
   Re-run tests "for free" after changes
 
+> Frankly, I wrote tests after writing code. I did feel testing is like a chore as the instructor, Bonnie mentioned. I have got to change my process to use profer TDD.
+
 ```sh
 git commit -am"message"
 # To save time lol
@@ -67,15 +69,34 @@ However, BDD is ver explicitly defined : involves collaboration between lots of 
 
 In this course, only developers, so TDD!
 
+### 10. Testing Library and Accessibility
+
+[Whici query should I use?](https://testing-library.com/docs/queries/about/#priority)
+
+1. Queries Accessible to Everyone \
+   getByRole, getByLabelText, getByPlaceholderText, getByText, getByDisplayValue
+2. Semantic Queries \
+   getByAltText, getByTitle
+3. Test IDs \
+   getByTestId
+
+```js
+const linkElement = screen.getByRole('link', { name: /learn react/i });
+```
+
+#### [Roles documentation](https://www.w3.org/TR/wai-aria/#role_definitions)
+
+Some element have build-in roles: button, a
+
 </details>
 
 ---
 
-## What I have adjusted from the course
+## What I have learned from this course
 
 -
 
 ## Next Step
 
 - TDD?
-  > Frankly, I wrote tests after writing code. I did feel testing is a chore as the instructor, Bonnie said. I have got to change my process.
+  > Frankly, I wrote tests after writing code. I did feel testing is like a chore as the instructor, Bonnie mentioned. I have got to change my process to use profer TDD.
