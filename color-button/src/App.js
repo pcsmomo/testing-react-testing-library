@@ -1,7 +1,7 @@
 import { useState } from 'react';
-
-import logo from './logo.svg';
 import './App.css';
+
+export function replaceCamelWithSpaces(colorName) {}
 
 function App() {
   const [buttonColor, setButtonColor] = useState('red');
