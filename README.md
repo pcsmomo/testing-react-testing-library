@@ -52,6 +52,13 @@ git commit -am"message"
 # To save time lol
 ```
 
+### 7. React Testing Library Philosophy
+
+- Unit tests : Tests one unit of code in isolation
+- Integration tests : How multiple units work together
+- \*Functional tests : (Behaviour) Tests a particular function of software
+- Acceptance / End-toend (E2E) tests : Use actual browser and server (Cypress, Selenium)
+
 </details>
 
 ---
