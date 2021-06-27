@@ -59,6 +59,14 @@ git commit -am"message"
 - \*Functional tests : (Behaviour) Tests a particular function of software
 - Acceptance / End-toend (E2E) tests : Use actual browser and server (Cypress, Selenium)
 
+### 9. TDD (Test Driven Development) vs BDD (Behavior Driven Development)
+
+Testing Library encourages testing "behaviour" over "implementation"
+
+However, BDD is ver explicitly defined : involves collaboration between lots of roles such developers, QA, business partners, Etc.
+
+In this course, only developers, so TDD!
+
 </details>
 
 ---
