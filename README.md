@@ -119,6 +119,12 @@ npm install --save-dev eslint-plugin-testing-library eslint-plugin-jest-dom
 npm install --save-dev eslint-plugin-testing-library eslint-plugin-jest-dom
 ```
 
+### 34. React Bootstrap Setup
+
+```sh
+npm install --save react-bootstrap bootstrap@4.6.0
+```
+
 </details>
 
 ---
