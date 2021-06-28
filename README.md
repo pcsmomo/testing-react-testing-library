@@ -159,6 +159,12 @@ npm install @testing-library/user-event @testing-library/dom --save-dev
 - [Cheatsheet](https://testing-library.com/docs/react-testing-library/cheatsheet/#queries)
 - [Priority](https://testing-library.com/docs/queries/about/#priority)
 
+### 42. Not wrapped in act(...) Error, Async Disappearance
+
+[Fix the "not wrapped in act(...)" warning](https://kentcdodds.com/blog/fix-the-not-wrapped-in-act-warning)
+
+[Waiting for disappearance](https://testing-library.com/docs/guide-disappearance/#waiting-for-disappearance)
+
 </details>
 
 ---
