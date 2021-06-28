@@ -125,6 +125,14 @@ npm install --save-dev eslint-plugin-testing-library eslint-plugin-jest-dom
 npm install --save react-bootstrap bootstrap@4.6.0
 ```
 
+### 38. React Bootstrap Popover and Testing Library userEvent
+
+- [@testing-library/user-event](https://github.com/testing-library/user-event) : More Advanced than **fireEvent**
+
+```sh
+npm install @testing-library/user-event @testing-library/dom --save-dev
+```
+
 </details>
 
 ---
