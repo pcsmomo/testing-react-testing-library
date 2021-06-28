@@ -99,6 +99,14 @@ Some element have build-in roles: button, a
 - [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)
 - [eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom)
 
+### 28. ESLint for Testing Library and Jest-DOM
+
+```sh
+npm install --save-dev eslint-plugin-testing-library eslint-plugin-jest-dom
+```
+
+[Bonnie's preferred rules and plugins](https://github.com/bonnie/bonniedotdev/blob/master/client/.eslintrc.json)
+
 </details>
 
 ---
