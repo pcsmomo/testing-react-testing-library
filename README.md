@@ -90,7 +90,7 @@ Some element have build-in roles: button, a
 
 ### 16. Test Initial Condition of Button and Checkbox
 
-- [jest-dom Matchers](https://github.com/testing-library/jest-dom);
+- [jest-dom Matchers](https://github.com/testing-library/jest-dom)
 - [jest Expect Methods](https://jestjs.io/docs/expect#methods)
 - [jest-extended Matchers](https://github.com/jest-community/jest-extended)
 
