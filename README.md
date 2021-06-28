@@ -133,6 +133,32 @@ npm install --save react-bootstrap bootstrap@4.6.0
 npm install @testing-library/user-event @testing-library/dom --save-dev
 ```
 
+### 39. Screen Query Methods
+
+#### command[All]ByQueryType
+
+- command
+  - get: expect element to be in DOM
+  - query: expect element not to be in DOM
+  - find: expect element to appear async
+- \[All\]
+  - (exclude) expect only one match
+  - (include) expect more than one match
+- QueryType
+  - Role (most preffered)
+  - AllText (images)
+  - Text (display elements)
+  - Form elements
+    - PlaceholderText
+    - LabelText
+    - DisplayValue
+
+#### screen Query Reference
+
+- [About Queries](https://testing-library.com/docs/queries/about/)
+- [Cheatsheet](https://testing-library.com/docs/react-testing-library/cheatsheet/#queries)
+- [Priority](https://testing-library.com/docs/queries/about/#priority)
+
 </details>
 
 ---
