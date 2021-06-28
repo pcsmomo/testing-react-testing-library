@@ -113,6 +113,12 @@ npm install --save-dev eslint-plugin-testing-library eslint-plugin-jest-dom
 
 [VS Code : Settings file locations](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations)
 
+### 33. ESLint and Prettier Setup
+
+```sh
+npm install --save-dev eslint-plugin-testing-library eslint-plugin-jest-dom
+```
+
 </details>
 
 ---
