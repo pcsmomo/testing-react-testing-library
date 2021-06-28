@@ -107,6 +107,12 @@ npm install --save-dev eslint-plugin-testing-library eslint-plugin-jest-dom
 
 [Bonnie's preferred rules and plugins](https://github.com/bonnie/bonniedotdev/blob/master/client/.eslintrc.json)
 
+### 29. Configure ESLint in VSCode
+
+[ESLint Options](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+[VS Code : Settings file locations](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations)
+
 </details>
 
 ---
