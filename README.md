@@ -94,6 +94,11 @@ Some element have build-in roles: button, a
 - [jest Expect Methods](https://jestjs.io/docs/expect#methods)
 - [jest-extended Matchers](https://github.com/jest-community/jest-extended)
 
+### 26. ESLint and Prettier
+
+- [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)
+- [eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom)
+
 </details>
 
 ---
