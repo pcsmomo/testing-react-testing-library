@@ -202,6 +202,10 @@ npm install axios --save
 > **⚠ Warning: Asynchronous Test - await findBy**
 > When you are waiting for something to appear asynchronously on the page, you must use _await findBy_
 
+### 52. Simulating Server Error Response in Tests
+
+[Mock Service Worker resetHandlers()](https://mswjs.io/docs/api/setup-server/reset-handlers)
+
 </details>
 
 ---
