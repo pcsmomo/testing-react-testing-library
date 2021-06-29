@@ -90,8 +90,8 @@ Some element have build-in roles: button, a
 
 ### 16. Test Initial Condition of Button and Checkbox
 
+- [jest Matchers and Expect Methods](https://jestjs.io/docs/expect#methods)
 - [jest-dom Matchers](https://github.com/testing-library/jest-dom)
-- [jest Expect Methods](https://jestjs.io/docs/expect#methods)
 - [jest-extended Matchers](https://github.com/jest-community/jest-extended)
 
 ### 26. ESLint and Prettier
@@ -182,6 +182,19 @@ npm install msw --save-dev
 ```js
 const scoopImages = screen.getAllByRole('img', { name: /scoop$/i });
 // I guess this name is referring alt property in img tag
+```
+
+### 48. OPTIONAL React Code: Options and ScoopOption Components
+
+```sh
+npm install axios --save
+```
+
+```js
+// It a good habit writing TODO: comment
+
+// TODO: handle error response
+// TODO: replace `null` with ToppingOption when available
 ```
 
 </details>
