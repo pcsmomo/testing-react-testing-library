@@ -177,6 +177,13 @@ npm install msw --save-dev
 
 [Integrate with Node](https://mswjs.io/docs/getting-started/integrate/node)
 
+### 47. Tests with Mock Service Worker: Scoop Options
+
+```js
+const scoopImages = screen.getAllByRole('img', { name: /scoop$/i });
+// I guess this name is referring alt property in img tag
+```
+
 </details>
 
 ---
