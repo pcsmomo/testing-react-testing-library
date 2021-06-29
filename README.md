@@ -165,6 +165,14 @@ npm install @testing-library/user-event @testing-library/dom --save-dev
 
 [Waiting for disappearance](https://testing-library.com/docs/guide-disappearance/#waiting-for-disappearance)
 
+### 45. Introduction to Mock Service Worker and Handlers
+
+#### [Mock Service Worker (msw)](https://mswjs.io/docs/)
+
+```sh
+npm install msw --save-dev
+```
+
 </details>
 
 ---
