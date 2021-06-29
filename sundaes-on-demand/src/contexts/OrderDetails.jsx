@@ -18,7 +18,7 @@ export function useOrderDetails() {
 
 function calculateSubtotal(optionType, optionCounts) {
   let optionCount = 0;
-  for (const count of optionCounts[optionType].values) {
+  for (const count of optionCounts[optionType].values()) {
     optionCount += count;
   }
 
@@ -52,7 +52,8 @@ export function OrderDetailsProvider(props) {
       const newOptionCounts = { ...optionCounts };
 
       // update option count for this item with the new value
-      const optionCountsMap = newOptionCounts[optionType];
+      const optionCountsMap = optionCounts[optionType];
+      // const optionCountsMap = newOptionCounts[optionType];
       optionCountsMap.set(itemName, parseInt(newItemCount));
 
       setOptionCounts(newOptionCounts);
