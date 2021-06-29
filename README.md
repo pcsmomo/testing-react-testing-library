@@ -197,6 +197,11 @@ npm install axios --save
 // TODO: replace `null` with ToppingOption when available
 ```
 
+### 49. Using `await findBy` to Find Elements that Populate Asynchronously
+
+> **⚠ Warning: Asynchronous Test - await findBy**
+> When you are waiting for something to appear asynchronously on the page, you must use _await findBy_
+
 </details>
 
 ---
