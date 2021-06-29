@@ -173,6 +173,10 @@ npm install @testing-library/user-event @testing-library/dom --save-dev
 npm install msw --save-dev
 ```
 
+### 46. Setting up the Mock Service Worker Server
+
+[Integrate with Node](https://mswjs.io/docs/getting-started/integrate/node)
+
 </details>
 
 ---
