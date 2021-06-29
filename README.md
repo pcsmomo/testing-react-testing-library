@@ -229,6 +229,12 @@ Watch Usage
 
 _awaitFor_ for test where _await findBy\*_ isn't enough
 
+### 60. Adding Context to Test Setup; Test Catching Error in Code
+
+[Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) : the namespace for **the ECMAScript Internationalization API**
+
+[Intl.NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)
+
 </details>
 
 ---
