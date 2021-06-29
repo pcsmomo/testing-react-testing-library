@@ -17,7 +17,7 @@ test('handles error for scoops and toppings routes', async () => {
   render(<OrderEntry />);
 
   const alerts = await screen.findAllByRole('alert', {
-    name: 'An unexpected error occured. Plase try again later.'
+    name: 'An unexpected error occured. Please try again later.'
   });
   expect(alerts).toHaveLength(2);
 });
