@@ -3,7 +3,7 @@
 Testing React with Jest and Testing Library by Bonnie Schulkin
 
 - Node : v14.15.4
-- NPM : 6.14.10
+- NPM : v6.14.10
 
 ## Details
 
@@ -204,11 +204,13 @@ npm install axios --save
 
 ### 52. Simulating Server Error Response in Tests
 
+Overwrite Mock Service Worker response for individual tests
+
 [Mock Service Worker resetHandlers()](https://mswjs.io/docs/api/setup-server/reset-handlers)
 
 ### 54. Running only Selected Tests, and `waitFor`
 
-1. Filtering from Watch Mode
+1. Isolate file with typing _p_ in Jest watch mode
 
 ```sh
 Watch Usage
@@ -221,7 +223,11 @@ Watch Usage
  › Press Enter to trigger a test run.
 ```
 
-2. Using _test.only_ and _test.skip_
+2. Isolate test with file with _test.only_ and _test.skip_
+
+### 55. Review: Server Error Response and Test Debugging Tools
+
+_awaitFor_ for test where _await findBy\*_ isn't enough
 
 </details>
 
