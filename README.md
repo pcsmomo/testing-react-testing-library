@@ -235,6 +235,15 @@ _awaitFor_ for test where _await findBy\*_ isn't enough
 
 [Intl.NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)
 
+### 61. Creating Custom Render to Wrap in Provider By Default
+
+[React Testing Library Setup](https://testing-library.com/docs/react-testing-library/setup)
+
+```js
+- import { render, fireEvent } from '@testing-library/react';
++ import { render, fireEvent } from '../test-utils';
+```
+
 </details>
 
 ---
