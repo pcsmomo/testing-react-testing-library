@@ -206,13 +206,32 @@ npm install axios --save
 
 [Mock Service Worker resetHandlers()](https://mswjs.io/docs/api/setup-server/reset-handlers)
 
+### 54. Running only Selected Tests, and `waitFor`
+
+1. Filtering from Watch Mode
+
+```sh
+Watch Usage
+ › Press a to run all tests.
+ › Press f to run only failed tests.
+ › Press o to only run tests related to changed files.
+ › Press q to quit watch mode.
+ › Press p to filter by a filename regex pattern.
+ › Press t to filter by a test name regex pattern.
+ › Press Enter to trigger a test run.
+```
+
+2. Using _test.only_ and _test.skip_
+
 </details>
 
 ---
 
 ## What I have learned from this course
 
--
+- Using TODO: comment
+- To use Just watch mode proferly with Watch Usage \
+  For example, with 'p', Filtering by filename regex pattern.
 
 ## Next Step
 
