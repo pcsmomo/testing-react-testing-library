@@ -50,6 +50,9 @@ export function OrderDetailsProvider(props) {
     const scoopsSubtotal = calculateSubtotal('scoops', optionCounts);
     const toppingsSubtotal = calculateSubtotal('toppings', optionCounts);
     const grandTotal = scoopsSubtotal + toppingsSubtotal;
+    console.log(`scoopsSubtotal: ${scoopsSubtotal}`);
+    console.log(`toppingsSubtotal: ${toppingsSubtotal}`);
+    console.log(`grandTotal: ${grandTotal}`);
     setTotals({
       scoops: formatCurrency(scoopsSubtotal),
       toppings: formatCurrency(toppingsSubtotal),
