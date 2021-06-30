@@ -283,6 +283,10 @@ act(() => {
 2. Does _getBy\*_ fail when there a server call or other async action?\
    need to use _await findBy\*_
 
+### 74. Jest Mock Functions as Props
+
+#### [Mock Functions](https://jestjs.io/docs/mock-functions)
+
 </details>
 
 ---
