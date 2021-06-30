@@ -244,6 +244,10 @@ _awaitFor_ for test where _await findBy\*_ isn't enough
 + import { render, fireEvent } from '../test-utils';
 ```
 
+### 63. Code Quiz! Toppings Subtotal
+
+**Black box test** : Not consider implementation
+
 ### 66. Unmounted Component Error
 
 ##### Warnings Occured
@@ -268,15 +272,25 @@ act(() => {
 - Include in the beginning of a test that asserts on state changes \
   Dont't need to include in all tests because it only needs to be tested once
 
+### 68. Introduction to Final Exam: Order Phases
+
+**Happy path test** (aka "Happy Day" or "Golden Path") \
+ Tests that execute customer flow without error
+
 </details>
 
 ---
 
 ## What I have learned from this course
 
+-
+
+### Tips
+
 - Using TODO: comment
 - To use Just watch mode proferly with Watch Usage \
   For example, with 'p', Filtering by filename regex pattern.
+-
 
 ## Next Step
 
