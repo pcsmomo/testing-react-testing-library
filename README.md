@@ -300,19 +300,24 @@ act(() => {
 
 ---
 
-## What I have learned from this course
+## What I have got from this course
 
 - React Testing Library
-- React Custom Hook
+  - TDD
+  - To use right queries
+  - To use proper matchers
+- React use cases
+  - Custom Hook
+  - React Context
+- React Bootstrap use cases
+- Tips
+  - Using TODO: comment
+  - To use Just watch mode proferly with Watch Usage \
+    For example, with 'p', Filtering by filename regex pattern.
 
-### Tips
-
-- Using TODO: comment
-- To use Just watch mode proferly with Watch Usage \
-  For example, with 'p', Filtering by filename regex pattern.
--
+> Bonnie is an excellent instructor with a great teaching style.
 
 ## Next Step
 
 - TDD?
-  > Frankly, I wrote tests after writing code. I did feel testing is like a chore as the instructor, Bonnie mentioned. I have got to change my process to use profer TDD.
+  > Frankly, I used to write tests after writing code. I did feel testing is like a chore as the instructor, Bonnie mentioned. I have got to change my process to use profer TDD.
