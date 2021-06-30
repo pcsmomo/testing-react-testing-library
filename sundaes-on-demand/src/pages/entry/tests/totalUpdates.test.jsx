@@ -65,7 +65,7 @@ describe('grand total', () => {
     expect(grandTotal).toHaveTextContent('0.00');
   });
 
-  test.only('grand total updates properly if scoop is added first', async () => {
+  test('grand total updates properly if scoop is added first', async () => {
     render(<OrderEntry />);
     const grandTotal = screen.getByRole('heading', {
       name: /grand total: \$/i
@@ -76,7 +76,7 @@ describe('grand total', () => {
       name: 'Vanilla'
     });
     userEvent.clear(vanillaInput);
-    userEvent.type(vanillaInput, 2);
+    userEvent.type(vanillaInput, '2');
     expect(grandTotal).toHaveTextContent('4.00');
 
     // add cherries and check grand total
@@ -105,7 +105,7 @@ describe('grand total', () => {
       name: 'Vanilla'
     });
     userEvent.clear(vanillaInput);
-    userEvent.type(vanillaInput, 2);
+    userEvent.type(vanillaInput, '2');
     expect(grandTotal).toHaveTextContent('5.50');
   });
 
@@ -124,11 +124,11 @@ describe('grand total', () => {
       name: 'Vanilla'
     });
     userEvent.clear(vanillaInput);
-    userEvent.type(vanillaInput, 2);
+    userEvent.type(vanillaInput, '2');
 
     // remove 1 scoop of vanilla and check grand total
     userEvent.clear(vanillaInput);
-    userEvent.type(vanillaInput, 1);
+    userEvent.type(vanillaInput, '1');
 
     // check grand total
     const grandTotal = screen.getByRole('heading', {
