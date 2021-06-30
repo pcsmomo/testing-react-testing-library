@@ -66,6 +66,10 @@ test('order phases for happy path', async () => {
   });
   userEvent.click(confirmOrderButton);
 
+  // except "loading" to show
+  const loading = screen.getByText(/loading/i);
+  expect(loading).toBeInTheDocument();
+
   // confirm order number on confirmation page
   // this one is async because there is a POST request to server in
   // between server and confirmation pages
