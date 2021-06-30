@@ -277,6 +277,12 @@ act(() => {
 **Happy path test** (aka "Happy Day" or "Golden Path") \
  Tests that execute customer flow without error
 
+### 70. Debugging Tips
+
+1. [screen.debug()](https://testing-library.com/docs/queries/about/#debugging)
+2. Does _getBy\*_ fail when there a server call or other async action?\
+   need to use _await findBy\*_
+
 </details>
 
 ---
