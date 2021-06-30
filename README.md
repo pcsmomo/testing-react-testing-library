@@ -292,6 +292,10 @@ act(() => {
 
 [Common mistakes with React Testing Library by Kent C. Dodds](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library)
 
+### 81. Red Input Box for Invalid Scoop Count
+
+[React Bootstrap Validation](https://react-bootstrap.netlify.app/components/forms/#forms-validation)
+
 </details>
 
 ---
