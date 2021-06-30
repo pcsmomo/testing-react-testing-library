@@ -244,6 +244,30 @@ _awaitFor_ for test where _await findBy\*_ isn't enough
 + import { render, fireEvent } from '../test-utils';
 ```
 
+### 66. Unmounted Component Error
+
+##### Warnings Occured
+
+```
+Warning: An update to Options inside a test was not wrapped in act(...).
+When testing, code that causes React state updates should be wrapped into act(...):
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+```
+
+##### Reason : After finishing the test, Still rendering data
+
+##### Possible Solution, but..
+
+- [Skip auto cleanup](https://testing-library.com/docs/react-testing-library/setup/#skipping-auto-cleanup) \
+  Not possible on a test-by-test basis
+- Mock useEffect to bypass server call \
+  Not recommended, farther from production code path
+- Include in the beginning of a test that asserts on state changes \
+  Dont't need to include in all tests because it only needs to be tested once
+
 </details>
 
 ---
