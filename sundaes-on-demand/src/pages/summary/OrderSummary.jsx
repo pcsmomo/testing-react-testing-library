@@ -11,7 +11,7 @@ export default function OrderSummary({ setOrderPhase }) {
     </li>
   ));
 
-  const toppingArray = Array.from(orderDetails.toppings.key());
+  const toppingArray = Array.from(orderDetails.toppings.keys());
   const toppingList = toppingArray.map((key) => <li key={key}>{key}</li>);
 
   return (

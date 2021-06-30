@@ -74,8 +74,8 @@ test('order phases for happy path', async () => {
   });
   expect(thankYouHeader).toBeInTheDocument();
 
-  // const orderNumber = await screen.findByText('order number');
-  const orderNumber = screen.getByText('order number');
+  // const orderNumber = await screen.findByText(/order number/i);
+  const orderNumber = screen.getByText(/order number/i);
   expect(orderNumber).toBeInTheDocument();
 
   // click "new order" button on confirmation page
@@ -83,7 +83,7 @@ test('order phases for happy path', async () => {
   userEvent.click(newOrderButton);
 
   // check that scoops and toppings subtotals have been reset
-  const scoopsTotal = screen.getByText('Scoops total: $0.00');
+  const scoopsTotal = await screen.findByText('Scoops total: $0.00');
   expect(scoopsTotal).toBeInTheDocument();
   const toppingsTotal = screen.getByText('Toppings total: $0.00');
   expect(toppingsTotal).toBeInTheDocument();
