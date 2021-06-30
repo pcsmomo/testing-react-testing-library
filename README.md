@@ -84,7 +84,8 @@ In this course, only developers, so TDD!
 const linkElement = screen.getByRole('link', { name: /learn react/i });
 ```
 
-#### [Roles documentation](https://www.w3.org/TR/wai-aria/#role_definitions)
+- [**Roles documentation - MDN**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
+- [**Roles documentation - W3**](https://www.w3.org/TR/wai-aria/#role_definitions)
 
 Some element have build-in roles: button, a
 
@@ -286,6 +287,10 @@ act(() => {
 ### 74. Jest Mock Functions as Props
 
 #### [Mock Functions](https://jestjs.io/docs/mock-functions)
+
+### 76. Common Mistakes with React Testing Library
+
+[Common mistakes with React Testing Library by Kent C. Dodds](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library)
 
 </details>
 
