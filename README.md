@@ -289,7 +289,8 @@ act(() => {
 
 ## What I have learned from this course
 
--
+- React Testing Library
+- React Custom Hook
 
 ### Tips
 
